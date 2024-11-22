@@ -1,0 +1,264 @@
+body{
+    background-color: #F3E5D8;
+    padding: 10px;
+}
+
+.card-container{
+    /* position: absolute; */
+    margin: auto;
+    inset: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    max-width: 500px;
+    width: 100%;
+}
+
+h2{
+    color:#302d2c;
+    font-family: "Young Serif", serif;
+    font-weight: 900;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+p{
+    /* color: #e4ded8; */
+    font-family: sans-serif;
+    font-weight: 150;
+    font-size: 11.5px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:500px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .card-container{
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    img{
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    h2{
+        display: block;
+        color:#302d2c;
+        font-family: "Young Serif", serif;
+        font-weight: 900;
+        font-size: 30px;
+        /* padding-top: 5px; */
+        padding-left: 0px;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+
+    p{
+        /* color: #e4ded8; */
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        padding-top: 10px;
+        /* padding-left: 21px; */
+        padding-right: 21px;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+.Prepration{
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    max-width: 500px;
+    background-color: #FFF7FC;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Prepration li::marker{
+    color:#860047;
+    font-size: 0.7rem;
+    
+}
+
+.Prepration span{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    color: #860047;
+}
+
+.Prepration ul{
+    /* font-weight: 16px; */
+    font-size: smaller;
+}
+
+.Prepration li{
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+@media (max-width:500px){
+    .Prepration{
+        font-size: 20px;
+        /* margin: 35px; */
+        /* padding-top: 30px; */
+    }
+    .Prepration li{
+        padding-left: 20px;
+        line-height: 30px;
+    }
+}
+
+.Ingredients h2{
+    color: #882f2f;
+}
+
+.Ingredients li::marker{
+    color: #882f2f;
+    font-size: 0.7rem;
+}
+
+.Ingredients li{
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+@media (max-width:500px){
+    .Ingredients li{
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+
+.Instructions h2 {
+    color: #882f2f;
+}
+
+.Instructions li::marker{
+    color: #882f2f;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.Instructions li{
+    line-height: 1rem;
+    /* font-family: "Young Serif", serif; */
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+@media (max-width:500px){
+    .Instructions li{
+        /* display: inline-block; */
+        padding-left: 10px;
+        padding-right: 25px;
+        margin: 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }  
+}
+
+.Nutrition h2{
+    color: #882f2f;
+}
+
+.Nutrition p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;   
+    line-height: 25px;
+}
+
+.fillings span b{
+    text-align: center;
+}
+
+.paragraph1{
+    padding-left: 25px;
+    word-spacing: 180px;
+}
+.paragraph2{
+    padding-left: 25px;
+    word-spacing: 196px;
+}
+.paragraph3{
+    padding-left: 25px;
+    word-spacing: 180px;
+}
+.paragraph4{
+    padding-left: 25px;
+    word-spacing: 212px;
+}
+
+.fillings b{
+    color: #882f2f;
+    font-weight: 900;
+}
+
+@media (max-width:500px){
+    .Nutrition .paragraph{
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 15px;   
+        line-height: 25px;
+    }  
+    
+    .Instructions li{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .Instructions{
+        padding-left: 25px;
+    }
+
+    .text-container{
+        padding: 30px;
+    }
+
+    .Instructions h2{
+        padding-left: 5px;
+    }
+    .paragraph1{
+        padding-left: 45px;
+        word-spacing: 85px;
+    }
+    .paragraph2{
+        padding-left: 45px;
+        word-spacing: 100px;
+    }
+    .paragraph3{
+        padding-left: 45px;
+        word-spacing: 84px;
+    }
+    .paragraph4{
+        padding-left: 45px;
+        word-spacing: 117px;
+    }
+    
+    .fillings b{
+        color: #882f2f;
+        font-weight: 900;
+    }
+
+}
